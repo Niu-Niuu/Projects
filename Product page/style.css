@@ -1,0 +1,167 @@
+* {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+img {
+  width: 300px;
+  cursor: pointer;
+}
+
+.a-link {
+  display: flex;
+  color: #000000;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+main {
+  border: 0.1px solid rgb(255, 255, 255);
+  margin: 125px 0 0 0;
+}
+
+#start {
+  margin: 1.5rem;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+#start h1 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+#start input {
+  display: block;
+  margin: auto;
+  width: 30%;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+#features {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#features .grid {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#features .grid i {
+  color: #ff8c00;
+}
+
+#features .grid div {
+  padding: 1rem;
+  margin-left: 3rem;
+}
+
+#features .grid div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fa-fire {
+  margin: 10px;
+}
+
+#how-it-works {
+  padding: 3rem;
+  margin: auto;
+  text-align: center;
+}
+
+#how-it-works iframe {
+  width: 500px;
+  height: 340px;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0.2rem;
+}
+
+.product {
+  border: 1px solid #333;
+  text-align: center;
+  margin: 0 7px;
+}
+
+.product ul {
+  display: block;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.level {
+  background-color: #DDDDDD;
+  padding: 10px 40px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #f1c40f;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 1rem 4rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+footer div a {
+  color: #333;
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
