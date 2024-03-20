@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.8px;
+}
+
+body {
+  font-family: sans-serif;
+  color: #595959;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  width: auto;
+  position: fixed;
+}
+
+header {
+  color: black;
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 500;
+}
+
+#navbar li {
+  list-style: none;
+  border-top: 1px solid #4D4E53;
+  border-right: 1px solid #4D4E53;
+  border-left: 1px solid #4D4E53;
+}
+
+#navbar ul {
+  border-bottom: 1px solid #4D4E53;
+  margin: -10px 0 10px 0;
+}
+
+#navbar header {
+  margin: 10px 0 16px 18px;
+}
+
+#navbar a {
+  font-size: 18.8px;
+  display: block;
+  padding: 9px 30px;
+  text-decoration: none;
+  cursor: printer;
+  color: #4D4E53;
+  transition: text-indent 0.3s ease-in-out;
+}
+
+.navbar li {
+  style: none;
+}
+
+section ul {
+  margin-left: 80px;
+}
+
+#navbar a:hover {
+  color: #7297A6;
+  text-indent: 5px;
+  font-weight: 800;
+}
+
+#main-doc {
+  margin: 0 100px 0 400px;
+}
+
+section {
+  maring-top: 40px;
+}
+
+p {
+  margin: 20px;
+}
+
+code {
+  background-color: #F2F2F2;
+  display: block;
+  text-align: left;
+  word-wrap: normal;
+  word-break: normal;
+  padding: 15px 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 815px) {
+  body {
+    flex-direction: row;
+  }
+}
